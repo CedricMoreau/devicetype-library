@@ -3,3 +3,16 @@ model: HPE-ProLiant-DL380-G7
 slug: hpe-proliant-dl380-g7
 u_height: 2
 is_full_depth: true
+interfaces:
+  - name: vmnic0 
+    type: 1000base-t
+    mgmt_only: false
+  - name: vmnic1
+    type: 1000base-t
+    mgmt_only: false
+  - name: vmnic4 
+    type: 1000base-t
+    mgmt_only: false
+  - name: vmnic5
+    type: 1000base-t
+    mgmt_only: false
